@@ -1,0 +1,158 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 12px;
+  padding: 24px;
+  width: 68%;
+}
+
+.name {
+  color: #334155;
+  font-size: 28px;
+}
+
+.span {
+  color: #0b69ff;
+  font-weight: 500;
+}
+.greeting {
+  color: #475569;
+  font-size: 18px;
+}
+
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.money-detail-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  border-radius: 16px;
+  border: 2px solid #84cc16;
+  background-color: #ecfccb;
+  padding: 18px;
+  padding-top: 27px;
+  padding-bottom: 7px;
+  width: 20%;
+}
+
+.card-img {
+  width: 64px;
+  height: 60px;
+  align-self: flex-start;
+}
+
+.your-balance {
+  color: #475569;
+}
+
+.rupees-in-card {
+  color: #475569;
+  font-size: 25px;
+}
+
+.money-computed-container {
+  align-self: center;
+}
+
+.income {
+  border: 2px solid #06b6d4;
+  background-color: #cffafe;
+}
+
+.expense {
+  border: 2px solid #7c3aed;
+  background-color: #ede9fe;
+}
+
+.form-history-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-container {
+  padding: 46px;
+  border: 2px solid #d7dfe9;
+  border-radius: 8px;
+}
+
+.form-heading {
+  font-size: 22px;
+  color: #475569;
+}
+
+.label {
+  color: #7e858e;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input {
+  font-size: 12px;
+  padding: 8px;
+  width: 240px;
+  outline: none;
+  border: 1px solid #d7dfe9;
+  border-radius: 6px;
+}
+
+.add-btn {
+  padding: 10px;
+  border-radius: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.history-container {
+  border: 2px solid #d7dfe9;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+.history-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #334155;
+  border: 2px solid #d7dfe9;
+  padding: 6px;
+  padding-right: 60px;
+  padding-left: 16px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  font-weight: 500;
+}
+
+.history-heading {
+  margin-right: 68px;
+}
+
+.history-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+}

@@ -1,0 +1,22 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.transaction-item {
+  color: #7e858e;
+  border-top: none;
+}
+
+.delete-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin-left: 54px;
+  align-self: flex-start;
+}
+
+.delete-img {
+  width: 23px;
+}
